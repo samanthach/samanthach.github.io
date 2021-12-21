@@ -125,12 +125,24 @@ const techStack = {
   viewSkillBars: false, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Front-end web development", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
       progressPercentage: "70%"
+    },
+    {
+      Stack: "Programming",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Programming",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Programming",
+      progressPercentage: "60%"
     },
     {
       Stack: "Programming",
@@ -146,29 +158,40 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Engineer II",
+      company: "Insider",
+      companylogo: require("./assets/images/insider.jpeg"),
+      date: "September 2020 – Present",
+      desc: "Full-stack engineer working on the Engagement team",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Built features in HTML/CSS/JS to improve user engagement and page views per session on the Business Insider and Insider news site.",
+        "Practices writing scalable code components on both standard web pages and accelerated mobile pages.",
+        "Works in a scrum agile environment."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Product Design Intern",
+      company: "Markid",
+      companylogo: require("./assets/images/markid-logo.jpeg"),
+      date: "May 2020 - September 2020",
+      desc: "Product Designer",
+      descBullets: [
+        "Built features in HTML/CSS/JS to improve user engagement and page views per session on the Business Insider and Insider news site.",
+        "Practices writing scalable code components on both standard web pages and accelerated mobile pages.",
+        "Works in a scrum agile environment."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Product Management Intern",
+      company: "CardConnect",
+      companylogo: require("./assets/images/cardconnect-logo.jpeg"),
+      date: "May 2019 - August 2019",
+      desc: "Product Manager",
+      descBullets: [
+        "Built features in HTML/CSS/JS to improve user engagement and page views per session on the Business Insider and Insider news site.",
+        "Practices writing scalable code components on both standard web pages and accelerated mobile pages.",
+        "Works in a scrum agile environment."
+      ]
     }
   ]
 };
@@ -177,24 +200,24 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "Some cool stuff I've worked on",
   projects: [
     {
       image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectName: "What to Eat: Ithaca's Farmers Market",
+      projectDesc: "Developed a dynamic front-end application for the Ithaca's Farmer's Market, designed to influence users to try new food stalls. Utilized Vue UI component library.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "View Project",
+          url: "https://w2-eat.herokuapp.com/"
         }
         //  you can add extra buttons here.
       ]
@@ -209,7 +232,29 @@ const bigProjects = {
           url: "http://nextu.se/"
         }
       ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Nextu",
+      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://nextu.se/"
+        }
+      ]
     }
+    // {
+    //   image: require("./assets/images/nextuLogo.webp"),
+    //   projectName: "Nextu",
+    //   projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+    //   footerLink: [
+    //     {
+    //       name: "Visit Website",
+    //       url: "http://nextu.se/"
+    //     }
+    //   ]
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -269,15 +314,15 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
 
 const blogSection = {
-  title: "Blogs",
+  title: "Blog Posts",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "Check out my posts on Medium",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
@@ -331,9 +376,9 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+    "Want to say hi? Reach out to me via email!",
+  number: "",
+  email_address: "samantha.chu@gmail.com"
 };
 
 // Twitter Section

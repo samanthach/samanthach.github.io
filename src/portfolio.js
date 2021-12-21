@@ -14,7 +14,7 @@ const greeting = {
   username: "Samantha Chu",
   title: "Hi, I'm Samantha Chu",
   subTitle: emoji(
-    "Full-stack software engineer based in New York City. Currently @Insider"
+    "Full-stack software engineer based in New York City. Currently developing @Insider"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1-OlEgVTtDxV35sa8k9uKnP4gfYaFRwcm/view?usp=sharing", // Set to empty to hide the button
@@ -36,16 +36,15 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "About me",
-  subTitle: "I'm a full-stack software engineer with experience building dynamic web applications. I'm passionate about creating experiences that delight users, and am a web accessibility and user-centric design advocate. I have an expertise in front-end technology.",
+  title: "Hello!",
+  subTitle: [
+    "I'm a full-stack software engineer and UX designer with experience building dynamic web applications. I’m passionate about solving modern problems with technology, and really enjoy creating experiences that delight users. I love to talk about web accessibility, user-centric design methods, and cool CSS tricks.",
+  ],
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+      "I'm also a freelance UX Designer and would love to discuss opportunities to work together. If you have a project or idea in mind, please reach out to see if we could be a good fit!",
+      "In my spare time, I like to do pilates/yoga, listen to audiobooks, and play with my dog, Brownie.",
+      "If you'd like to chat or reach me, feel free to email me or send me a message on LinkedIn!",
+      "Here are some of the tech I know:",
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -73,6 +72,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
+      skillName: "vuejs",
+      fontAwesomeClassname: "fab fa-vuejs"
+    },
+    {
       skillName: "nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
@@ -85,8 +88,24 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-database"
     },
     {
+      skillName: "R",
+      fontAwesomeClassname: "fab fa-r-project"
+    },
+    {
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },
+    {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "figma",
+      fontAwesomeClassname: "fab fa-figma"
+    },
+    {
+      skillName: "sketch",
+      fontAwesomeClassname: "fab fa-sketch"
     },
   ],
   display: true // Set false to hide this section, defaults to true
@@ -100,22 +119,14 @@ const educationInfo = {
     {
       schoolName: "Cornell University",
       logo: require("./assets/images/cornell-logo.png"),
-      subHeader: "Master of Professional Studies in Information Science",
-      duration: "Graduated December 2020",
+      subHeader: "Master of Professional Studies in Information Science, Bachelor of Science in Information Science",
+      duration: "September 2017 - December 2020",
       // desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "Concentration in Interactive Technologies",
         "Selected to participate in the Early Admit MPS Program"
-      ]
+      ],
     },
-    {
-      schoolName: "Cornell University",
-      logo: require("./assets/images/cornell-logo.png"),
-      subHeader: "Bachelor of Science in Information Science",
-      duration: "September 2017 - May 2020",
-      // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Concentration in User Experience Design and Data Science"]
-    }
   ]
 };
 

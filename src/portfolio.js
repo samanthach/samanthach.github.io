@@ -12,9 +12,9 @@ const illustration = {
 
 const greeting = {
   username: "Samantha Chu",
-  title: "Hello! I'm Samantha Chu",
+  title: "Hi, I'm Samantha Chu",
   subTitle: emoji(
-    "Full-stack software engineer based in NYC"
+    "Full-stack software engineer based in New York City. Currently @Insider"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1-OlEgVTtDxV35sa8k9uKnP4gfYaFRwcm/view?usp=sharing", // Set to empty to hide the button

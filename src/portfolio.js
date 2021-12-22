@@ -174,7 +174,7 @@ const workExperiences = {
       company: "Insider",
       companylogo: require("./assets/images/insider.jpeg"),
       date: "September 2020 – Present",
-      desc: "Full-stack engineer working on the Engagement team",
+      desc: "New York, NY",
       descBullets: [
         "Built features in HTML/CSS/JS to improve user engagement and page views per session on the Business Insider and Insider news site.",
         "Practices writing scalable code components on both standard web pages and accelerated mobile pages.",
@@ -186,11 +186,11 @@ const workExperiences = {
       company: "Markid",
       companylogo: require("./assets/images/markid-logo.jpeg"),
       date: "May 2020 - September 2020",
-      desc: "Product Designer",
+      desc: "New York, NY",
       descBullets: [
-        "Built features in HTML/CSS/JS to improve user engagement and page views per session on the Business Insider and Insider news site.",
-        "Practices writing scalable code components on both standard web pages and accelerated mobile pages.",
-        "Works in a scrum agile environment."
+        "Engaged in information architecture planning, UX mapping, UI flow design, and creating user stories (JIRA).",
+        "Communicated product needs and requirements to development and UX teams.",
+        "Organized project phases using waterfall and agile methodologies."
       ]
     },
     {
@@ -198,11 +198,11 @@ const workExperiences = {
       company: "CardConnect",
       companylogo: require("./assets/images/cardconnect-logo.jpeg"),
       date: "May 2019 - August 2019",
-      desc: "Product Manager",
+      desc: "King of Prussia, PA",
       descBullets: [
-        "Built features in HTML/CSS/JS to improve user engagement and page views per session on the Business Insider and Insider news site.",
-        "Practices writing scalable code components on both standard web pages and accelerated mobile pages.",
-        "Works in a scrum agile environment."
+        "Launched user tests and redesigned the attachments feature in the Copilot system UI.",
+        "Worked closely with product and operation teams to identify interface bottlenecks in the Copilot on-boarding flow. ",
+        "Developed an operation tools inventory and cross-analyzed the overlapping software between teams to create a findings analysis report"
       ]
     }
   ]
@@ -240,8 +240,8 @@ const bigProjects = {
       projectDesc: "A UX Feature Case Study where my teammates and I explored the use of memory tools to elevate the social media aspect of Venmo.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View Design Brief",
+          url: "https://medium.com/@samantha.chu/venmo-a-redesign-supporting-user-reminiscence-a4dcfccd88b0"
         }
       ]
     },
@@ -251,8 +251,8 @@ const bigProjects = {
       projectDesc: "Developing the User Interface for an application that connects non-English speaking International students to the cultural climate at Cornell.",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View Design Brief",
+          url: "https://medium.com/@samantha.chu/lychee-connecting-international-chinese-students-with-americans-through-language-a0e166dc5e0e"
         }
       ]
     }

@@ -119,12 +119,13 @@ const educationInfo = {
     {
       schoolName: "Cornell University",
       logo: require("./assets/images/cornell-logo.png"),
-      subHeader: "Master of Professional Studies in Information Science, Bachelor of Science in Information Science",
+      subHeader: "Master of Professional Studies in Information Science | Bachelor of Science in Information Science",
       duration: "September 2017 - December 2020",
       // desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
-        "Concentration in Interactive Technologies",
-        "Selected to participate in the Early Admit MPS Program"
+        "M.P.S. Concentration: Interactive Technologies",
+        "B.S. Concentration: User Experience Design and Data Science",
+        "Selected as part of the Early Admit MPS Program"
       ],
     },
   ]
@@ -212,7 +213,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -222,7 +223,7 @@ const bigProjects = {
   subtitle: "Some cool stuff I've worked on",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/whattoeat.png"),
       projectName: "What to Eat: Ithaca's Farmers Market",
       projectDesc: "Developed a dynamic front-end application for the Ithaca's Farmer's Market, designed to influence users to try new food stalls. Utilized Vue UI component library.",
       footerLink: [
@@ -234,9 +235,9 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/venmo-cover.png"),
+      projectName: "Venmo: A Concept Supporting User Reminisence",
+      projectDesc: "A UX Feature Case Study where my teammates and I explored the use of memory tools to elevate the social media aspect of Venmo.",
       footerLink: [
         {
           name: "Visit Website",
@@ -245,9 +246,9 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/lychee.png"),
+      projectName: "Lychee",
+      projectDesc: "Developing the User Interface for an application that connects non-English speaking International students to the cultural climate at Cornell.",
       footerLink: [
         {
           name: "Visit Website",
@@ -385,7 +386,7 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: emoji("Contact Me"),
   subtitle:
     "Want to say hi? Reach out to me via email!",
   number: "",

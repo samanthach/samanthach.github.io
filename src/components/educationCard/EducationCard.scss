@@ -50,7 +50,7 @@
 }
 
 .education-card-right {
-  max-width: 70%;
+  max-width: 90%;
 }
 
 .education-text-subHeader {
@@ -82,9 +82,13 @@
 
 @media (max-width: 1380px) {
   .education-card {
-    flex-direction: column;
+    flex-direction: row;
     padding-bottom: 10px;
   }
+  .education-card-left {
+    margin-right: 15px;
+  }
+
   .education-card-right {
     max-width: 90%;
   }
@@ -112,7 +116,11 @@
 
 @media (max-width: 768px) {
   .education-card {
+    flex-direction: column;
     text-align: center;
+  }
+  .education-card-left {
+    margin-right: 0px;
   }
   .education-card-right {
     max-width: 100%;
@@ -128,7 +136,7 @@
     margin-right: 0;
   }
   .education-text-bullets > ul {
-    max-width: 80%;
+    max-width: 100%;
     margin: auto;
   }
 }

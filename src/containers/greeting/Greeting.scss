@@ -24,8 +24,10 @@
 .link-element {
   text-decoration: none;
 
+  &:link,
   &:visited,
-  &:active {
+  &:active,
+  &:focus {
     color: $subTitle !important;
     text-decoration: none;
   }
@@ -67,8 +69,12 @@
 }
 
 .greeting-image-div > img {
-  max-width: 100%;
+  max-width: 50%;
   height: auto;
+}
+
+.education-animation {
+  width: 20%;
 }
 
 .wave-emoji {

@@ -2,6 +2,10 @@
 
 .social-media-div {
   font-size: 2em;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .icon-button {
@@ -79,7 +83,7 @@
 .stack-overflow i:hover,
 .kaggle i:hover,
 .medium i:hover {
-  background-color: $textColor;
+  background-color: $darkRoseGold;
 }
 
 /* Media Query */

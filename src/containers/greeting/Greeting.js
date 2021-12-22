@@ -35,7 +35,8 @@ export default function Greeting() {
                     : "greeting-text-p subTitle"
                 }
               >
-                {greeting.subTitle}
+                {greeting.subTitle}&nbsp;
+                <a target="_blank" rel="noopener noreferrer" class="link-element" href="https://www.insider.com/">@Insider</a>
               </p>
               <SocialMedia />
               <div className="button-greeting-div">

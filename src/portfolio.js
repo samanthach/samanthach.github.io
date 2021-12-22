@@ -14,7 +14,7 @@ const greeting = {
   username: "Samantha Chu",
   title: "Hi, I'm Samantha Chu",
   subTitle: emoji(
-    "Full-stack software engineer based in New York City. Currently developing @Insider"
+    "Full-stack software engineer based in New York City. Currently developing"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1-OlEgVTtDxV35sa8k9uKnP4gfYaFRwcm/view?usp=sharing", // Set to empty to hide the button

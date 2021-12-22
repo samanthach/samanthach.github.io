@@ -21,6 +21,27 @@
   color: $subTitle !important;
 }
 
+.link-element {
+  text-decoration: none;
+
+  &:visited,
+  &:active {
+    color: $subTitle !important;
+    text-decoration: none;
+  }
+  &:hover {
+    color: $buttonColor!important;
+  }
+}
+
+.dark-mode .link-element {
+  color: white !important;
+
+  &:hover {
+    color: $buttonColor!important;
+  }
+}
+
 .greeting-main {
   display: flex;
 }

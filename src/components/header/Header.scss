@@ -47,6 +47,7 @@
 
 .header li a:hover,
 .header .menu-btn:hover {
+  border-radius: 30px;
   background-color: $headerHoverBG;
 }
 

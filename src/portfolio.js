@@ -225,6 +225,7 @@ const bigProjects = {
     {
       image: require("./assets/images/whattoeat.png"),
       projectName: "What to Eat: Ithaca's Farmers Market",
+      role: "Engineer and Designer",
       projectDesc: "Developed a dynamic front-end application for the Ithaca's Farmer's Market, designed to influence users to try new food stalls. Utilized Vue UI component library.",
       footerLink: [
         {
@@ -236,7 +237,8 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/venmo-cover.png"),
-      projectName: "Venmo: A Concept Supporting User Reminisence",
+      projectName: "Venmo: A Concept Supporting User Reminiscence",
+      role: "UX Designer",
       projectDesc: "A UX Feature Case Study where my teammates and I explored the use of memory tools to elevate the social media aspect of Venmo.",
       footerLink: [
         {
@@ -248,6 +250,7 @@ const bigProjects = {
     {
       image: require("./assets/images/lychee.png"),
       projectName: "Lychee",
+      role: "UX Designer",
       projectDesc: "Developing the User Interface for an application that connects non-English speaking International students to the cultural climate at Cornell.",
       footerLink: [
         {

@@ -41,7 +41,7 @@ const skillsSection = {
     "I'm a full-stack software engineer and UX designer with experience building dynamic web applications. I’m passionate about solving modern problems with technology, and really enjoy creating experiences that delight users. I love to talk about web accessibility, user-centric design methods, and cool CSS tricks.",
   ],
   skills: [
-      "I'm also a freelance UX Designer and would love to discuss opportunities to work together. If you have a project or idea in mind, please reach out to see if we could be a good fit!",
+      // "I'm also a freelance UX Designer and would love to discuss opportunities to work together. If you have a project or idea in mind, please reach out to see if we could be a good fit!",
       "In my spare time, I like to do pilates/yoga, listen to audiobooks, and play with my dog, Brownie.",
       "If you'd like to chat or reach me, feel free to email me or send me a message on LinkedIn!",
       "Here are some of the tech I know:",

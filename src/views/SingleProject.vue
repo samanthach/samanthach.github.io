@@ -106,13 +106,13 @@ export default {
 						id: 1,
 						name: 'Twitter',
 						icon: 'twitter',
-						url: 'https://twitter.com/realstoman',
+						url: 'https://twitter.com/samanthachu_',
 					},
 					{
 						id: 2,
 						name: 'Instagram',
 						icon: 'instagram',
-						url: 'https://instagram.com/realstoman',
+						url: 'https://instagram.com/samantha.chu',
 					},
 					{
 						id: 3,

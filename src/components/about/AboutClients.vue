@@ -11,7 +11,7 @@ export default {
 			clients: [
 				{
 					id: 1,
-					title: 'Amazon',
+					title: 'Insider',
 					img: require('@/assets/images/brands/amazon_gray.png'),
 				},
 				{

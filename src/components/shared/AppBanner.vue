@@ -31,12 +31,13 @@ export default {
 			<h1
 				class="font-general-semibold text-3xl md:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase"
 			>
+			<!-- &#9888;&#65039; PORTFOLIO UNDER CONSTRUCTION &#9888;&#65039; -->
 				Hi, I'm Samantha Chu
 			</h1>
 			<p
 				class="font-general-medium mt-2 text-lg sm:text-xl  xl:text-2xl text-center sm:text-left leading-none text-gray-400"
 			>
-			Full-stack software engineer based in New York City. Currently developing <a target="_blank" href="https://insider.com">@Insider</a>
+			Full-stack software engineer based in New York City. <br> Currently developing <a class="link-hover" target="_blank" href="https://insider.com">@Insider</a>
 			</p>
 			<div class="flex justify-center sm:block">
 				<a
@@ -58,19 +59,28 @@ export default {
 		</div>
 
 		<!-- Banner right illustration -->
+		<!-- #E4A4E6 -->
 		<div class="w-full md:w-2/3 text-right float-right">
 			<img
 				v-if="theme === 'light'"
-				src="@/assets/images/developer.svg"
+				src="@/assets/images/developer3.svg"
 				alt="Developer"
 			/>
 			<img
 				v-else
-				src="@/assets/images/developer-dark.svg"
+				src="@/assets/images/developer3.svg"
 				alt="Developer"
 			/>
 		</div>
 	</section>
 </template>
 
-<style scoped></style>
+<style scoped>
+.link-hover {
+	text-decoration: underline;
+}
+
+.link-hover:hover {
+	color: #89CFF0;
+}
+</style>

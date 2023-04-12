@@ -4,7 +4,7 @@
 const projects = [
 	{
 		id: 1,
-		title: 'Google Health Platform',
+		title: 'Business Insider Site',
 		category: 'Web Application',
 		img: require('@/assets/images/web-project-2.jpg'),
 	},

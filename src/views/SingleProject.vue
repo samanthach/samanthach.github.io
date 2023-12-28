@@ -16,9 +16,9 @@ export default {
 	data: () => {
 		return {
 			singleProjectHeader: {
-				singleProjectTitle: 'Project Management UI',
-				singleProjectDate: 'Jul 26, 2021',
-				singleProjectTag: 'UI / Frontend',
+				singleProjectTitle: 'Business Insider',
+				singleProjectDate: 'September 2020 - Present',
+				singleProjectTag: 'Software Engineer III',
 			},
 			projectImages: [
 				{
@@ -43,22 +43,17 @@ export default {
 					{
 						id: 1,
 						title: 'Name',
-						details: 'Company Ltd',
+						details: 'Business Insider',
 					},
 					{
 						id: 2,
 						title: 'Services',
-						details: 'UI Design & Frontend Development',
+						details: 'Full stack developement',
 					},
 					{
 						id: 3,
 						title: 'Website',
-						details: 'https://company.com',
-					},
-					{
-						id: 4,
-						title: 'Phone',
-						details: '555 8888 888',
+						details: 'https://www.businessinsider.com',
 					},
 				],
 				objectivesHeading: 'Objective',

@@ -1,8 +1,6 @@
 <script>
-import counter from 'vue3-autocounter';
 export default {
 	components: {
-		counter,
 	},
 	data: () => {
 		return {

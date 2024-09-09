@@ -12,5 +12,6 @@ export default defineConfig({
         tailwind({
             applyBaseStyles: false
         })
-    ]
+    ],
+    outDir: 'dist', 
 });

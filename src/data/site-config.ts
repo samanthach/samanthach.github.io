@@ -38,8 +38,8 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
+    title: `Hi! I'm Samantha Chu`,
+    subtitle: 'Full-stack software engineer based in New York City',
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
         src: '/dante-preview.jpg',
@@ -61,6 +61,10 @@ const siteConfig: SiteConfig = {
         {
             text: 'Tags',
             href: '/tags'
+        },
+        {
+            text: 'Resume',
+            href: 'https://docs.google.com/document/d/1jDZQS4hpT-PKAqR3LzD_eFrSi3xiyERt/edit?usp=sharing&ouid=109220842234109049467&rtpof=true&sd=true'
         }
     ],
     footerNavLinks: [
@@ -96,10 +100,10 @@ const siteConfig: SiteConfig = {
         }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        title: ``,
+        text: "I'm **Samantha Chu**, a full stack Software Engineer at Business Insider with a passion for building scalable and user-centric solutions. With experience leading technical projects at Business Insider and an academic background from Cornell University, I specialize in creating high-performance applications using modern web technologies such as Node.js, React, and Python. Whether it's optimizing web performance, driving product innovation, or improving user experience, I thrive on solving complex problems and delivering impactful results. Take a look around to see my projects, skills, and accomplishments!",
         image: {
-            src: '/hero.jpeg',
+            src: '/profile.png',
             alt: 'A person sitting at a desk in front of a computer'
         },
         actions: [

@@ -1,6 +1,6 @@
 ---
-title: CryptoTrader - Cryptocurrency Portfolio Manager
-description: CryptoTrader Dashboard is a comprehensive web application designed to empower cryptocurrency enthusiasts with tools to manage and optimize their digital asset portfolios.
+title: Pitch Deck Library - BI Hackathon 2024 Award Winner (Best Job To Be Done)
+description: Pitch Deck Library is a hackathon project designed to optimize the experience searching and discovering new pitch deck content at Business Insider.
 publishDate: 'Jan 10 2024'
 isFeatured: true
 seo:

@@ -1,6 +1,6 @@
 ---
-title: 'PixelPerfect Art Gallery'
-description: PixelPerfect Art Gallery is an innovative online platform that transcends traditional art exhibition spaces.
+title: 'Venmo -- A Redesign Supporting User Reminiscence'
+description: How can we redesign the Venmo application to elevate connections between users?
 publishDate: 'Oct 25 2023'
 isFeatured: true
 seo:

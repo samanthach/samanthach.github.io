@@ -1,7 +1,7 @@
 ---
-title: Your Roadmap to Framework Selection Success
-excerpt: Choosing the right framework for your web project is a critical decision that can significantly impact the development process and the success of your project. With so many options available, it's essential to consider various factors before making a choice.
-publishDate: 'Jan 11 2024'
+title: User and Algorithm Analysis - Instagram Advertisements
+excerpt: Looking into how Instagram filters its advertisement content for its variety of users and analyzing the ways users interact and respond to them.
+publishDate: 'Aug 4 2020'
 isFeatured: true
 tags:
   - Web
@@ -11,6 +11,7 @@ seo:
     src: '/post-14.jpg'
     alt: Wavy lines
 ---
+Read more on Medium: https://medium.com/@samantha.chu/user-and-algorithm-analysis-instagram-advertisements-8b196a58ac6f
 
 ![Wavy lines](/post-14.jpg)
 

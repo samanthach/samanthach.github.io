@@ -1,7 +1,7 @@
 ---
-title: 'A Guide to Web Performance Metrics'
-excerpt: Dive deep into web performance metrics, including tools and techniques for measuring and optimizing loading times. Discuss the significance of metrics like First Contentful Paint, Time to Interactive, and more.
-publishDate: 'Jan 03 2024'
+title: 'Venmo — A Redesign Supporting User Reminiscence'
+excerpt: We want to explore the role of social connection in the realm of mobile payment platforms. How can we redesign the Venmo Application to elevate in its mission to connect its users?
+publishDate: 'May 15 2020'
 tags:
   - Web
   - Guide
@@ -11,6 +11,8 @@ seo:
     src: '/post-13.jpg'
     alt: Abstract snow
 ---
+
+Read more on Medium: https://medium.com/@samantha.chu/venmo-a-redesign-supporting-user-reminiscence-a4dcfccd88b0
 
 ![Abstract snow](/post-13.jpg)
 

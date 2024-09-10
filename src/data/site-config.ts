@@ -38,8 +38,8 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: `Hi! I'm Samantha Chu`,
-    subtitle: 'Full-stack software engineer based in New York City',
+    title: `Hi! I'm Samantha Chu 👋`,
+    subtitle: `Full-stack software engineer based in New York City. Currently building products at Business Insider.`,
     description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
     image: {
         src: '/dante-preview.jpg',
@@ -76,14 +76,14 @@ const siteConfig: SiteConfig = {
             text: 'Contact',
             href: '/contact'
         },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        }
+        // {
+        //     text: 'Terms',
+        //     href: '/terms'
+        // },
+        // {
+        //     text: 'Download theme',
+        //     href: 'https://github.com/JustGoodUI/dante-astro-theme'
+        // }
     ],
     socialLinks: [
         {
@@ -101,7 +101,7 @@ const siteConfig: SiteConfig = {
     ],
     hero: {
         title: ``,
-        text: "I'm **Samantha Chu**, a full stack Software Engineer at Business Insider with a passion for building scalable and user-centric solutions. With experience leading technical projects at Business Insider and an academic background from Cornell University, I specialize in creating high-performance applications using modern web technologies such as Node.js, React, and Python. Whether it's optimizing web performance, driving product innovation, or improving user experience, I thrive on solving complex problems and delivering impactful results. Take a look around to see my projects, skills, and accomplishments!",
+        text: "Hi! I'm **Samantha Chu**, a full stack Software Engineer at Business Insider with a passion for building scalable and user-centric solutions. With experience leading technical projects at Business Insider and an academic background from Cornell University, I specialize in creating high-performance applications using modern web technologies such as Node.js, React, and Python. Whether it's optimizing web performance, driving product innovation, or improving user experience, I thrive on solving complex problems and delivering impactful results. Take a look around to see my projects, skills, and accomplishments!",
         image: {
             src: '/profile.png',
             alt: 'A person sitting at a desk in front of a computer'
@@ -113,11 +113,11 @@ const siteConfig: SiteConfig = {
             }
         ]
     },
-    subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
-        formUrl: '#'
-    },
+    // subscribe: {
+    //     title: 'Subscribe to Dante Newsletter',
+    //     text: 'One update per week. All the latest posts directly in your inbox.',
+    //     formUrl: '#'
+    // },
     postsPerPage: 8,
     projectsPerPage: 8
 };

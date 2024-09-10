@@ -8,55 +8,55 @@ seo:
     src: 'project-7.jpg'
 ---
 
-![Project preview](/project-7.jpg)
+<!-- ![Project preview](/project-7.jpg) -->
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+**Team**: Samantha Chu (Software Engineer), Brenda L. (PM), Shannon N. (UXD)
 
 **Project Overview:**
-CryptoTrader Dashboard is a comprehensive web application designed to empower cryptocurrency enthusiasts with tools to manage and optimize their digital asset portfolios. By providing real-time market data, analytics, and portfolio tracking, the dashboard offers a seamless experience for users to monitor and enhance their cryptocurrency investments.
+Business Insider has a large repository of Pitch Decks readily available, but the UX poses a challenge for users who hope to utilize it. By having the pitch deck repository in a list form embedded in a larger article with limited search capabilities, users have a harder time finding the information they need from the tool quickly. There’s also increased friction in actually seeing the slide contents, as users have to click to the individual article page and then scroll through the page to view content due to the limitation of our slideshow format.
+
+**Solution Opportunity**
+By creating an easier UX for users to search and preview the pitch decks, we will encourage return visits and increased usage of this tool, which will in turn generate user value and loyalty.  
+
+**Goals and Metrics to determine success**
+1. Clicks to view individual pitch decks
+2. Return visits to the Pitch Deck hub
 
 ## Objectives
 
-1. Develop a user-friendly and feature-rich dashboard that consolidates real-time data from various cryptocurrency exchanges.
-2. Provide tools for users to analyze market trends, track their portfolio performance, and make informed investment decisions.
-3. Create a secure and efficient platform that ensures users have a holistic view of their cryptocurrency holdings.
+1. **Improve User Experience for Searching and Browsing Pitch Decks:**
+- Enhance the search functionality to allow users to quickly find relevant pitch decks based on keywords or categories.
+- Organize pitch decks in a more user-friendly way to make browsing intuitive and streamlined.
+2. **Enable Quick Preview of Pitch Decks:**
+- Allow users to preview pitch decks without the need to click through multiple pages.
+- Reduce friction by minimizing the number of steps needed to access the deck contents, improving content visibility. 
+3. **Increase User Engagement and Return Visits:**
+- Design the interface to encourage return visits by making it easier to discover and interact with pitch decks.
+- Implement features that enhance the overall value of the tool to promote user loyalty.
+4. **Improve Accessibility and Navigation:**
+- Simplify navigation within the pitch deck hub to make it easier to move between decks and explore related content.
+- Ensure that the design is responsive across devices to cater to a diverse range of users.
 
 ## Features
 
-1. **Multi-Exchange Integration:**
+1. **Advanced Search Functionality**
 
-- CryptoTrader Dashboard aggregates data from multiple cryptocurrency exchanges, allowing users to view their entire portfolio in one centralized location.
-- Real-time updates provide the latest market prices, trading volumes, and order book data.
+- Add robust filtering and sorting options for pitch decks, allowing users to search by industry, funding round, and region (location).
 
-2. **Portfolio Analytics:**
+2. **Instant Pitch Deck Previews**
 
-- Users can analyze their portfolio's performance through interactive charts and graphs.
-- The dashboard offers insights into historical performance, asset allocation, and profit/loss over time.
-
-3. **Risk Management Tools:**
-
-- Advanced risk management tools help users assess the volatility and potential risks associated with their cryptocurrency investments.
-- Users receive alerts for significant market fluctuations or changes in their portfolio value.
-
-4. **Automated Transaction Tracking:**
-
-- The dashboard automatically tracks and records users' cryptocurrency transactions, simplifying the process of updating and managing portfolios.
-- Users can categorize transactions, add notes, and maintain a comprehensive transaction history.
-
-5. **News and Market Insights:**
-
-- A dedicated section provides real-time news and market insights relevant to users' cryptocurrency holdings.
-- Users can stay informed about market trends, regulatory developments, and news affecting their investment decisions.
+- Enable users to preview the contents of a pitch deck directly from the search results page or hub without navigating away.
+- Display slide thumbnails or summaries to allow for quick assessment of deck relevance.
 
 ## Technology Stack
 
-- Frontend: React for a responsive and interactive user interface.
-- Backend: Django for server-side logic and API integration.
-- Database: PostgreSQL for efficient storage and retrieval of portfolio and market data.
-- API Integration: Integration with cryptocurrency exchange APIs for real-time market data.
+- Frontend: Handlebars, SCSS, and client JS for a responsive and interactive user interface.
+- Backend: Node JS for server-side logic and API integration.
+- Database: Spreadsheet API (in-house) for efficient storage and retrieval of company data.
 
 ## Outcome
 
-CryptoTrader Dashboard has become a trusted companion for cryptocurrency investors, offering a consolidated and user-friendly platform for managing their portfolios. The robust analytics, real-time market data, and risk management tools empower users to make informed decisions and navigate the dynamic world of cryptocurrency with confidence.
+The redesigned Pitch Deck Library is expected to significantly improve user experience when interacting with Pitch Deck content. Our team presented the prototype to the Business Insider Product & Tech organization during the 2024 Hack Week, and the project was awarded the Business Insider 2024 Hackathon award for "Best Job To Be Done".
 
-**Note:** This case study is entirely fictional and created for the purpose of showcasing [Dante Astro.js theme functionality](https://justgoodui.com/astro-themes/dante/).
+Key features, such as advanced search functionality and instant deck previews, aim to reduce friction in accessing content, which will provide users with a more efficient and intuitive browsing experience. These improvements are expected to drive increased engagement, with higher clicks on individual pitch decks and a boost in return visits to the Pitch Deck hub. The project has laid the groundwork for greater user satisfaction and tool adoption, demonstrating measurable improvements in user interaction.
+

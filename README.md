@@ -90,3 +90,19 @@ Check out [our documentation](https://docs.astro.build) or jump into our [Discor
 ## License
 
 Licensed under the [GPL-3.0](https://github.com/JustGoodUI/dante-astro-theme/blob/main/LICENSE) license.
+
+
+## Deploying the Project 
+
+# Step 1: Add and commit your changes (optional, saves your work)
+git add .
+git commit -m "Update source files"
+
+# Step 2: Push changes to the main branch (optional)
+git push origin main
+
+# Step 3: Build the project (creates the `dist/` folder)
+npm run build
+
+# Step 4: Deploy the `dist/` folder to the `gh-pages` branch
+npm run deploy

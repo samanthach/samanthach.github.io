@@ -51,6 +51,10 @@ const siteConfig: SiteConfig = {
             href: '/'
         },
         {
+            text: 'About',
+            href: '/about'
+        },
+        {
             text: 'Projects',
             href: '/projects'
         },
@@ -76,14 +80,6 @@ const siteConfig: SiteConfig = {
             text: 'Contact',
             href: '/contact'
         },
-        // {
-        //     text: 'Terms',
-        //     href: '/terms'
-        // },
-        // {
-        //     text: 'Download theme',
-        //     href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        // }
     ],
     socialLinks: [
         {
@@ -103,7 +99,7 @@ const siteConfig: SiteConfig = {
         title: ``,
         text: "Hi! I'm **Samantha Chu**, a full stack Software Engineer at Business Insider with a passion for building scalable and user-centric solutions. With experience leading technical projects at Business Insider and an academic background from Cornell University, I specialize in creating high-performance applications using modern web technologies such as Node.js, React, and Python. Whether it's optimizing web performance, driving product innovation, or improving user experience, I thrive on solving complex problems and delivering impactful results. Take a look around to see my projects, skills, and accomplishments!",
         image: {
-            src: '/profile.png',
+            // src: '/profile.png',
             alt: 'A person sitting at a desk in front of a computer'
         },
         actions: [

@@ -106,3 +106,14 @@ npm run build
 
 # Step 4: Deploy the `dist/` folder to the `gh-pages` branch
 npm run deploy
+
+# Manually Add .nojekyll (if needed)
+If for some reason .nojekyll is not being deployed properly, you can manually add it to the gh-pages branch:
+
+git checkout gh-pages
+
+touch .nojekyll
+
+git add .nojekyll
+git commit -m "Add .nojekyll to root of gh-pages"
+git push origin gh-pages

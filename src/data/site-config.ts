@@ -38,9 +38,9 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    // title: `Hi! I'm Samantha Chu 👋`,
+    title: '',
     // subtitle: `Full-stack software engineer based in New York City. Currently building products at Business Insider.`,
-    // description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    description: '',
     // image: {
     //     src: '/dante-preview.jpg',
     //     alt: 'Dante - Astro.js and Tailwind CSS theme'

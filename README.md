@@ -117,3 +117,6 @@ touch .nojekyll
 git add .nojekyll
 git commit -m "Add .nojekyll to root of gh-pages"
 git push origin gh-pages
+
+# note
+The .nojekyll file is a special marker used by GitHub Pages to disable Jekyll processing. By default, GitHub Pages runs Jekyll, a static site generator, which can ignore files and directories that start with an underscore (among other behaviors). If you're using a different static site generator or have files that Jekyll might accidentally skip, adding an empty .nojekyll file in the root of your repository tells GitHub Pages to serve all files as they are, without any Jekyll processing.

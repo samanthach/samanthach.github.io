@@ -48,3 +48,43 @@
     }
     */
 }
+
+.body {
+    margin: 0 30px;
+
+    .greeting {
+        font-size: 40px;
+        margin-bottom: 20px;
+    }
+
+    .header {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .intro-paragraph {
+        font-size: 18px;
+    }
+
+    .link {
+    position: relative;
+    display: inline-block; /* Ensures the element's width fits its content */
+    z-index: 0; /* Establishes a new stacking context */
+    }
+
+    .link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 70%; /* Initially positioned just below the text */
+    background-color: #c1d3fe;
+    z-index: -1; /* Places the pseudo-element behind the text */
+    transition: top 0.55s ease; /* Transition duration increased to 1s for a slower effect */
+    }
+
+    .link:hover::after {
+    top: 0; /* Animate to cover the full height of the element */
+    }
+}

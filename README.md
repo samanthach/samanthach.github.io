@@ -1,5 +1,14 @@
 ## Deploying the Project
 
+### Step 0: Set up
+Delete the local gh-pages branch, then pull from main:
+```bash
+git checkout main
+git branch -D gh-pages
+git pull
+```
+### Step 0.5: Implement Changes
+
 ### Step 1: Add and Commit Your Changes
 - Work on the main branch.
 - Github serves files from the gh-pages branch (dist === root folder)

@@ -9,7 +9,7 @@ git pull
 ```
 ### Step 0.5: Implement Changes
 
-### Step 1: Add and Commit Your Changes
+### Step 1: Add and Commit Your Changes (optional for now)
 - Work on the main branch.
 - Github serves files from the gh-pages branch (dist === root folder)
 ```bash
@@ -17,7 +17,7 @@ git add .
 git commit -m "Update source files"
 ```
 
-### Step 2: Push Changes to the Main Branch
+### Step 2: Push Changes to the Main Branch (optional for now)
 ```bash
 git push origin main
 ```

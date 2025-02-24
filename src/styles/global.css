@@ -87,7 +87,7 @@
     right: 0;
     bottom: 0;
     top: 70%; /* Initially positioned just below the text */
-    background-color: #c1d3fe;
+    background-color: #ddbdfc;
     z-index: -1; /* Places the pseudo-element behind the text */
     transition: top 0.55s ease; /* Transition duration increased to 1s for a slower effect */
     }
@@ -95,4 +95,38 @@
     .link:hover::after {
     top: 0; /* Animate to cover the full height of the element */
     }
+}
+
+.waving-hand {
+  display: inline-block;
+  font-size: 2rem; /* Adjust size as needed */
+  animation: wave 2.5s infinite; /* Animation lasts 2.5s, repeats infinitely */
+  transform-origin: 70% 70%; /* Pivot around the base of the hand */
+}
+
+@keyframes wave {
+  0% {
+    transform: rotate(0deg);
+  }
+  10% {
+    transform: rotate(14deg);
+  }
+  20% {
+    transform: rotate(-8deg);
+  }
+  30% {
+    transform: rotate(14deg);
+  }
+  40% {
+    transform: rotate(-4deg);
+  }
+  50% {
+    transform: rotate(10deg);
+  }
+  60% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }

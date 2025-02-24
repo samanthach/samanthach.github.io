@@ -45,32 +45,32 @@ const siteConfig: SiteConfig = {
     //     src: '/dante-preview.jpg',
     //     alt: 'Dante - Astro.js and Tailwind CSS theme'
     // },
-    // headerNavLinks: [
-    //     {
-    //         text: 'Home',
-    //         href: '/'
-    //     },
-    //     {
-    //         text: 'About',
-    //         href: '/about'
-    //     },
-    //     {
-    //         text: 'Projects',
-    //         href: '/projects'
-    //     },
-    //     {
-    //         text: 'Blog',
-    //         href: '/blog'
-    //     },
-    //     {
-    //         text: 'Tags',
-    //         href: '/tags'
-    //     },
-    //     {
-    //         text: 'Resume',
-    //         href: 'https://docs.google.com/document/d/1jDZQS4hpT-PKAqR3LzD_eFrSi3xiyERt/edit?usp=sharing&ouid=109220842234109049467&rtpof=true&sd=true'
-    //     }
-    // ],
+    headerNavLinks: [
+        // {
+        //     text: 'Home',
+        //     href: '/'
+        // },
+        // {
+        //     text: 'About',
+        //     href: '/about'
+        // },
+        // {
+        //     text: 'Projects',
+        //     href: '/projects'
+        // },
+        // {
+        //     text: 'Blog',
+        //     href: '/blog'
+        // },
+        // {
+        //     text: 'Tags',
+        //     href: '/tags'
+        // },
+        // {
+        //     text: 'Resume',
+        //     href: 'https://docs.google.com/document/d/1jDZQS4hpT-PKAqR3LzD_eFrSi3xiyERt/edit?usp=sharing&ouid=109220842234109049467&rtpof=true&sd=true'
+        // }
+    ],
     footerNavLinks: [
         // {
         //     text: 'About',
